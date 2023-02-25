@@ -26,21 +26,21 @@ def browser(request):
     print("\nquit browser..")
     browser.quit()
 
-# @pytest.fixture(scope="function")
-# def browser():
-#     print("\nstart browser for test..")
-#     browser = webdriver.Chrome()
-#     yield browser
-#     # этот код выполнится после завершения теста
-#     print("\nquit browser..")
-#     browser.quit()
-
-# @pytest.fixture(scope="function")
-# def browser():
-#     print("\nstart browser for test..")
-#     chrome_options = Options()
-#     chrome_options.add_argument("--headless")  # мы не видим открытие окон
-#     browser = webdriver.Chrome(options=chrome_options)
-#     yield browser
-#     print("\nquit browser..")
-#     browser.quit()
+# # @pytest.fixture(scope="function")
+# # def browser():
+# #     print("\nstart browser for test..")
+# #     browser = webdriver.Chrome()
+# #     yield browser
+# #     # этот код выполнится после завершения теста
+# #     print("\nquit browser..")
+# #     browser.quit()
+#
+# # @pytest.fixture(scope="function")
+# # def browser():
+# #     print("\nstart browser for test..")
+# #     chrome_options = Options()
+# #     chrome_options.add_argument("--headless")  # мы не видим открытие окон
+# #     browser = webdriver.Chrome(options=chrome_options)
+# #     yield browser
+# #     print("\nquit browser..")
+# #     browser.quit()

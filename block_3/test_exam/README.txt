@@ -1,0 +1,1 @@
+the test will fall unless there will be ONLY ONE conftest.py file in the directory.
